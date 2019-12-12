@@ -42,5 +42,7 @@ public class Client {
         People peo = (People) ac.getBean("people");
         peo.accountController.say();
 
+        ApplicationContext ac1 = new AnnotationConfigApplicationContext();
+
     }
 }

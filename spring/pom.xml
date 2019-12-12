@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>iocWithoutXml</module>
+        <module>transaction</module>
+        <module>aop</module>
+    </modules>
 
 
     <dependencies>
