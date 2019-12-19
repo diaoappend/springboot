@@ -15,10 +15,16 @@
         <module>iocWithoutXml</module>
         <module>transaction</module>
         <module>aop</module>
+        <module>aop-annotation</module>
+        <module>aop-transaction</module>
     </modules>
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework</groupId>

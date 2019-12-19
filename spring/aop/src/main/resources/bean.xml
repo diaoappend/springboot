@@ -34,7 +34,11 @@
         <!--配置切面-->
         <aop:aspect id="logAdvice" ref="logger">
             <!--配置通知的类型，且建立通知方法和切入点的关联-->
-            <aop:before method="printLog" pointcut="execution(public void com.diao.service.impl.AccountServiceImpl.saveAccount())"></aop:before>
+            <aop:before method="beforePrint" pointcut-ref="pt1"></aop:before>
+            <aop:after-returning method="afterPrint" pointcut-ref="pt1"></aop:after-returning>
+            <aop:around method="aroundPoint" pointcut-ref="pt1"></aop:around>
+            <aop:pointcut id="pt1"
+                          expression="execution(public void com.diao.service.impl.AccountServiceImpl.saveAccount())"></aop:pointcut>
         </aop:aspect>
     </aop:config>
 </beans>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springmvc:war">
+    <output-path>$PROJECT_DIR$/spring-mvc/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-mvc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springmvc.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/spring-mvc/target/springmvc/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
