@@ -16,6 +16,7 @@
         <module name="interceptor" />
         <module name="iocWithoutXml" />
         <module name="proxy" />
+        <module name="ssm" />
         <module name="transaction" />
       </profile>
     </annotationProcessing>
@@ -36,6 +37,7 @@
       <module name="spring-mvc" target="1.8" />
       <module name="springboot" target="1.8" />
       <module name="springmvc1" target="1.8" />
+      <module name="ssm" target="1.8" />
       <module name="transaction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -57,6 +59,7 @@
       <module name="spring-mvc" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="springmvc1" options="-parameters" />
+      <module name="ssm" options="-parameters" />
       <module name="transaction" options="-parameters" />
     </option>
   </component>
