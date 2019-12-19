@@ -4,7 +4,7 @@ import com.diao.domain.Account;
 import com.diao.service.IAccountService;
 import com.diao.service.impl.AccountServiceImpl;
 import config.SpringConfiguration;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

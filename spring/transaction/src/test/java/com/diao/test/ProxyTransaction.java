@@ -3,7 +3,7 @@ package com.diao.test;
 import com.diao.service.IAccountService;
 import com.diao.service.impl.AccountServiceImpl;
 import com.diao.utils.TransactionUtils;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 
 import javax.sql.DataSource;
+import javax.validation.Valid;
 
 public class JdbcConfig {
     //为了避免连接信息写死，用添加配置文件和@Value注解加SpEL表达式的方式注入连接信息，但前提是配置类要加@PropertyResource("配置文件")指明配置文件

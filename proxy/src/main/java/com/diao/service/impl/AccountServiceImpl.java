@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 @Service("accountService") //通过注解的方式将该类对象注入IOC容器，如果通过XML方式注入，不用加该注解
 public class AccountServiceImpl implements IAccountService {
     @Autowired
