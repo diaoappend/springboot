@@ -24,8 +24,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.1.RELEASE" />
           <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.2.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

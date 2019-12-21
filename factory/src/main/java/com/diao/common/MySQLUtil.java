@@ -11,7 +11,7 @@ public class MySQLUtil {
     private static String user = "root";
     private static String password = "root";
 
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
         Class.forName(driver);
         Connection conn = DriverManager.getConnection(url, user, password);
         Statement statement = conn.createStatement();
@@ -30,5 +30,5 @@ public class MySQLUtil {
         conn.close();
 
 
-    }
+    }*/
 }

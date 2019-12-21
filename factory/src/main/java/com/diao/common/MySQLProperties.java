@@ -13,7 +13,7 @@ import java.util.Properties;
 public class MySQLProperties {
     private static Properties prop = null;
 
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
         MySQLProperties.readProperties("mysql.properties");
         String driver = prop.getProperty("driver");
         String url = prop.getProperty("url");
@@ -37,7 +37,7 @@ public class MySQLProperties {
         resultSet.close();
 
 
-    }
+    }*/
 
     public static void readProperties(String filename) {
         if (prop == null) {
