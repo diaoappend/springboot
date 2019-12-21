@@ -60,7 +60,6 @@ public class AccountServiceImpl implements IAccountService {
         sourceAccount.setMoney(sourceAccount.getMoney()-money);
         //4.转入账户加钱
         targetAccount.setMoney(targetAccount.getMoney()+money);
-        int i=1/0;
         //5.更新转出账户
         accountDao.updateAccount(sourceAccount);
         //6.更新转入账户

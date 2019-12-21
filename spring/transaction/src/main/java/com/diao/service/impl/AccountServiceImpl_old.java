@@ -81,7 +81,6 @@ public class AccountServiceImpl_old implements IAccountService {
             targetAccount.setMoney(targetAccount.getMoney()+money);
             //5.更新转出账户
             accountDao.updateAccount(sourceAccount);
-            int i = 1/0;
             //6.更新转入账户
             accountDao.updateAccount(targetAccount);
             transactionUtils.commitTransaction();

@@ -16,5 +16,10 @@
     <file url="file://$PROJECT_DIR$/spring/iocWithoutXml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/transaction" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ssm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm/controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm/dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm/domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ssm/service" charset="UTF-8" />
   </component>
 </project>

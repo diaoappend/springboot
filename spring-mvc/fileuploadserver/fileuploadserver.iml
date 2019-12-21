@@ -15,7 +15,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -36,8 +36,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet.jsp:jsp-api:2.1" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.2.1.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.0.4.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.2.1.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.2.1.RELEASE" level="project" />
   </component>
 </module>
