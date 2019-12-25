@@ -11,6 +11,12 @@
     <title>Title</title>
 </head>
 <body>
-<a href="findAll">SpringMVC测试</a>
+<a href="findAll">测试查询</a>
+<h3>测试保存</h3>
+<form action="saveAccount" method="post">
+    姓名：<input type="text" name="name" /><br/>
+    金额：<input type="text" name="money" /><br/>
+    <input type="submit" value="保存"/><br/>
+</form>
 </body>
 </html>

@@ -16,6 +16,7 @@
         <module name="interceptor" />
         <module name="iocWithoutXml" />
         <module name="proxy" />
+        <module name="ssm" />
         <module name="transaction" />
       </profile>
     </annotationProcessing>
@@ -46,28 +47,28 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="aop" options="-parameters" />
-      <module name="aop-annotation" options="-parameters" />
-      <module name="aop-transaction" options="-parameters" />
+      <module name="aop" options="" />
+      <module name="aop-annotation" options="" />
+      <module name="aop-transaction" options="" />
       <module name="controller" options="-parameters" />
       <module name="dao" options="-parameters" />
       <module name="domain" options="-parameters" />
-      <module name="exception" options="-parameters" />
-      <module name="factory" options="-parameters" />
-      <module name="fileupload" options="-parameters" />
-      <module name="fileuploadserver" options="-parameters" />
-      <module name="interceptor" options="-parameters" />
-      <module name="iocWithoutXml" options="-parameters" />
+      <module name="exception" options="" />
+      <module name="factory" options="" />
+      <module name="fileupload" options="" />
+      <module name="fileuploadserver" options="" />
+      <module name="interceptor" options="" />
+      <module name="iocWithoutXml" options="" />
       <module name="mvc" options="-parameters" />
       <module name="mvctest" options="-parameters" />
-      <module name="proxy" options="-parameters" />
+      <module name="proxy" options="" />
       <module name="service" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="spring-mvc" options="-parameters" />
       <module name="springboot" options="-parameters" />
       <module name="springmvc1" options="-parameters" />
-      <module name="ssm" options="-parameters" />
-      <module name="transaction" options="-parameters" />
+      <module name="ssm" options="" />
+      <module name="transaction" options="" />
     </option>
   </component>
 </project>
